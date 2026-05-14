@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BOOKMARKS Framework Benchmark Runner
 
 This repo is a cleaned-up Python implementation of the BOOKMARKS framework extracted from the notebook. It intentionally excludes baseline methods and keeps only the bookmark-based memory pipeline.
@@ -83,3 +84,13 @@ For each artifact, the runner writes:
 <output-dir>/<ARTIFACT>.bookmarks.final_memory.json   # final bookmark memory state
 <output-dir>/prompt_cache.jsonl                       # prompt cache unless --cache-file is set
 ```
+=======
+# BOOKMARKS
+
+**An Efficient Active Role-playing Memory System by Searching Storyline and Making Checkpoints**
+
+<img width="5550" height="1914" alt="fig_main_v1-1" src="https://github.com/user-attachments/assets/4fa20682-95eb-4492-a37d-f5def6048d02" />
+
+
+<img height="96" alt="KomeijiForce_Logo" src="https://github.com/user-attachments/assets/3b931cd1-8ce9-4e89-8852-f20d288cad1d" /> - Let there be fantasy
+>>>>>>> aacf21eb966eed18bc56af1a7d40e96753427981

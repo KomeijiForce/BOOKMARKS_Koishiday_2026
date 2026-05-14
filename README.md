@@ -44,13 +44,15 @@ If `--classifier-path` is omitted, behavioral yes/no filtering uses `--disc-mode
 ## Run
 
 ```bash
-bash scripts/run_bookmarks.sh "MyGO!!!!!" \
-  --data-dir ../CDT \
-  --output-dir outputs/mygo \
+bash scripts/run_bookmarks.sh "Poppin'Party" \
+  --data-dir data \
+  --output-dir outputs/popipa \
   --n-query 5 \
   --step 64 \
-  --metrics em \
-  --max-test-instances 20
+  --classifier-path "KomeijiForce/deberta-v3-base-behavior-check-v4-0"\
+  --device "cuda:0"\
+  --metrics "em" \
+  --max-test-instances 100
 ```
 
 For a full run, remove `--max-test-instances`.

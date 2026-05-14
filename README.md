@@ -11,7 +11,7 @@
 
 - `src/bookmarks/bookmarks.py` — bookmark proposal, reuse/derive, and concept/state/behavioral bookmark updates.
 - `src/bookmarks/benchmark.py` — main argparse entrypoint for benchmarking one artifact.
-- `src/bookmarks/data.py` — loaders for the CDT-style action-series files.
+- `src/bookmarks/data.py` — loaders for the action-series files.
 - `src/bookmarks/llm.py` — OpenAI client wrapper with JSONL prompt cache.
 - `src/bookmarks/profile.py` — profile extraction/aggregation.
 - `src/bookmarks/predict.py` — next-action prediction.
@@ -20,10 +20,10 @@
 
 ## Expected data layout
 
-By default, `--data-dir ../CDT` should contain:
+By default, `--data-dir data` should contain:
 
 ```text
-../CDT/
+data/
   all_characters.json
   band2members.json                         # optional; used to decide utterance formatting
   title2action_series.<ARTIFACT>.json
@@ -69,7 +69,7 @@ PYTHONPATH=src python -m bookmarks.benchmark \
 ## Useful parameters
 
 - `--artifact`: benchmark artifact name.
-- `--data-dir`: directory containing CDT JSON files.
+- `--data-dir`: directory containing JSON files.
 - `--n-query`: number of bookmark queries proposed per target prediction.
 - `--step`: chunk size for state/profile updating.
 - `--history-window`: number of previous actions used as current scene.

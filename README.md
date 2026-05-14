@@ -62,8 +62,8 @@ You can also run the module directly:
 ```bash
 PYTHONPATH=src python -m bookmarks.benchmark \
   --artifact "Poppin'Party" \
-  --data-dir ../CDT \
-  --output-dir outputs/poppinparty
+  --data-dir data \
+  --output-dir outputs/popipa
 ```
 
 ## Useful parameters

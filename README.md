@@ -1,4 +1,4 @@
-# [Koishi's Day 2026](https://dic.pixiv.net/a/5%E6%9C%8814%E6%97%A5%E3%81%AF%E3%81%93%E3%81%84%E3%81%97%E3%81%AE%E6%97%A5): BOOKMARKS: Efficient Active Storyline Memory for Role-playing
+# [Koishi's Day 2026](https://dic.pixiv.net/a/5%E6%9C%8814%E6%97%A5%E3%81%AF%E3%81%93%E3%81%84%E3%81%97%E3%81%AE%E6%97%A5): BOOKMARKS: Efficient Active Storyline Memory for Role-playing [\<Link to Paper\>](https://arxiv.org/abs/2605.14169)
 
 <img width="5550" height="1914" alt="fig_main_v1-1" src="https://github.com/user-attachments/assets/388086c4-7a56-49f8-9120-452d08d48822" />
 
